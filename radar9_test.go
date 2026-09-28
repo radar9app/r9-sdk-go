@@ -51,7 +51,7 @@ func TestUserTokenClaims(t *testing.T) {
 		CompanyID:   "wh_42",
 		CompanyName: "Acme YUL-2",
 		Role:        RoleAdmin,
-		Metadata:    map[string]any{"platform": "wms_central"},
+		Metadata:    map[string]any{"plan": "pro"},
 	})
 	if err != nil {
 		t.Fatalf("UserToken: %v", err)
